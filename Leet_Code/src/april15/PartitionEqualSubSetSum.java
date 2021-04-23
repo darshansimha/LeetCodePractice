@@ -27,15 +27,15 @@ public class PartitionEqualSubSetSum {
 		for (int i = 1; i <= nums.length; i++) {
 			for (int j = 1; j <= target; j++) {
 				// selecting the element
-				if (j - nums[i - 1] < 0) {
-					chosen = false;
-				} else {
-					chosen = dpTable[i - 1][j - nums[i - 1]];
-				}
-				// not selecting the element
-				notChosen = dpTable[i - 1][j];
-
-				dpTable[i][j] = chosen || notChosen;
+					if (j - nums[i - 1] < 0) {
+						chosen = false;
+					} else {
+						chosen = dpTable[i - 1][j - nums[i - 1]];
+					}
+					// not selecting the element
+					notChosen = dpTable[i - 1][j];
+	
+					dpTable[i][j] = chosen || notChosen;
 			}
 		}
 		return dpTable[dpTable.length - 1][target];
