@@ -39,7 +39,7 @@ public class TrappingRainWater {
 		// TODO Auto-generated method stub
 		TrappingRainWater t = new TrappingRainWater();
 
-		System.out.println(t.trap(new int[] { 4, 2, 0, 3, 2, 5 }));
+		System.out.println(t.trap(new int[] { 1,8,6,2,5,4,8,3,7 }));
 	}
 
 }
