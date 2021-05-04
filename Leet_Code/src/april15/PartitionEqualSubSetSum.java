@@ -38,7 +38,7 @@ public class PartitionEqualSubSetSum {
 					dpTable[i][j] = chosen || notChosen;
 			}
 		}
-		return dpTable[dpTable.length - 1][target];
+		return dpTable[nums.length][target];
 	}
 
 	public static void main(String[] args) {
