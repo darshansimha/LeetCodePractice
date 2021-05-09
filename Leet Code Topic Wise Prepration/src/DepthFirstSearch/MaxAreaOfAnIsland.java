@@ -3,12 +3,10 @@ package DepthFirstSearch;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.util.stream.IntStream;
 
 public class MaxAreaOfAnIsland {
 
 	public int maxAreaOfIsland(int[][] grid) {
-		int result = 0;
 		if (grid == null || grid.length == 0 || grid[0].length == 0) {
 			return 0;
 		}
