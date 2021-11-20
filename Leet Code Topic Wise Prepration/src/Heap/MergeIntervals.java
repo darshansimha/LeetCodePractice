@@ -1,4 +1,4 @@
-package Others;
+package Heap;
 
 import java.util.ArrayList;
 import java.util.Arrays;

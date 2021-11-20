@@ -1,4 +1,4 @@
-package Others;
+package DynamicProgramming;
 
 public class ContainerWithMostWater {
 	public int maxAreaBruteForce(int[] height) {
