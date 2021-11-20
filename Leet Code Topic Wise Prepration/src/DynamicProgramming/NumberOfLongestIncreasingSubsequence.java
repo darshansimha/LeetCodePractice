@@ -1,7 +1,5 @@
 package DynamicProgramming;
 
-import java.util.Arrays;
-
 public class NumberOfLongestIncreasingSubsequence {
 
 	public int findNumberOfLIS(int[] nums) {

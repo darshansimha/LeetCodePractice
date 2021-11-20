@@ -7,8 +7,6 @@ public class WordSearch {
 			return false;
 		}
 		boolean result = false;
-		int row = board.length;
-		int col = board[0].length;
 		for (int i = 0; i < board.length; i++) {
 			for (int j = 0; j < board[i].length; j++) {
 				if (board[i][j] == word.charAt(0)) {

@@ -31,7 +31,7 @@ public class WordBreak {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		WordBreak w = new WordBreak();
-		List<String> dict = new ArrayList();
+		List<String> dict = new ArrayList<String>();
 		dict.add("leet");
 		dict.add("code");
 		System.out.println(w.wordBreak("leetcode", dict));
