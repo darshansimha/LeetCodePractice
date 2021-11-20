@@ -1,7 +1,6 @@
-package Tree;
+package Trees;
 
 import java.util.HashSet;
-import java.util.Set;
 
 public class WordSearch {
 	public boolean exist(char[][] board, String word) {

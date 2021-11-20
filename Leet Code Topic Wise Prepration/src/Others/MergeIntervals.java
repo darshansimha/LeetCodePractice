@@ -58,8 +58,6 @@ public class MergeIntervals {
 		MergeIntervals m = new MergeIntervals();
 		int[] a1 = new int[] { 1, 4 };
 		int[] a2 = new int[] { 4, 5 };
-		int[] a3 = new int[] { 8, 10 };
-		int[] a4 = new int[] { 15, 18 };
 
 		int[][] k = new int[][] { a1, a2 };
 

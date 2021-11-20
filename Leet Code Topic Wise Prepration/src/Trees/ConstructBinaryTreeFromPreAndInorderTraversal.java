@@ -1,8 +1,6 @@
-package Tree;
+package Trees;
 
 import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
 
 import Common.TreeNode;
 
